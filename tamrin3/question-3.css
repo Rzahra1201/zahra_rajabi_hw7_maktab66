@@ -1,0 +1,162 @@
+@font-face {
+    font-family:Raleway ;
+    src: url("Font/Raleway/Raleway-Italic-VariableFont_wght.ttf") format("truetype");
+    src: url("Font/Raleway/Raleway-VariableFont_wght.ttf") format("truetype");
+
+}
+body
+ {
+   margin: 0;
+   padding: 0;
+   background: #0a0a0a;
+   color: #cdcdcd;
+   font-family: Raleway , "Avenir Next", "Avenir", sans-serif;
+ }
+ .top-of-the-site {
+   display: flex;
+   flex-direction: row;
+   margin-top: 1%;
+   margin-bottom: 2%;
+   margin-right: 13%;
+   margin-left:5%;
+  
+ }
+ .hello-hand-p {
+   display: flex;
+   flex-direction: column;
+   
+   margin-left: 3%;
+   margin-right: 3%;
+ }
+
+ header {
+     margin-top: 10%;
+     display: flex; 
+     flex-direction: row;
+     align-items:center ;
+     justify-content: flex-start;
+    font-size: xx-large; 
+    font-weight: bolder;
+    color: whitesmoke;
+    
+ }
+ h1 {
+     color: lightskyblue;
+ }
+
+  .child1 p {
+    color: lightskyblue;
+  }
+  .blackman {
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right:1%;
+   margin-top: 28%;
+  
+ }
+ .gradient-line {
+   background-image:linear-gradient(to right,rgb(199, 120, 16),rgb(184, 105, 184),rgb(62, 62, 208) );
+   height: 0.5px;
+   width: 70%;
+   margin-left: 15%;
+   margin-top:90px;
+   margin-bottom: 90px;
+   /* margin-bottom: 10%; */
+ }
+ .digitize {
+   /* margin-bottom: 13%; */
+ }
+ .digitize_your_business {
+   text-align: center;
+   color: lightskyblue;
+ }
+
+ .p_under_digitize_your_business {
+  text-align: center;
+  color: lightskyblue;
+  margin-bottom:8%;
+ }
+ .child2 {
+  
+   /* margin-top: 35%; */
+   margin-left: auto;
+   margin-right: auto;
+   width:95vw;
+   height: auto;
+   display: flex;
+   /* margin:3%; */
+   align-items: center;
+   justify-content: space-between;
+ }
+ 
+ .left-box {
+   display: flex;
+   top: 0;
+   flex-direction: column;
+   align-items: flex-start;
+   width: 25%;
+   /* height: 90%; */
+   
+ }
+ .p-gradiant {
+  font-size: 22px;
+  font-weight:bold;
+  background: -webkit-linear-gradient(rgb(199, 120, 16),rgb(184, 105, 184),rgb(62, 62, 208) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
+ .p-box {
+   color: lightskyblue;
+ }
+ .center-box {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  width: 25%;
+  height:auto;
+ 
+ }
+ .right-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25%;
+  height: auto;
+  
+  }
+ 
+@media screen and (max-width:900px) {
+
+  .top-of-the-site {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hello-hand-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gradient-line {
+    width: 100%;
+  }
+.child2 {
+  display: flex;
+  flex-direction: column;
+  margin:30px;
+}
+.left-box {
+  width:70%;
+  margin:5% ;
+
+}
+.center-box {
+  width:70%;
+  margin:5% ;
+}
+.right-box {
+  width:70%;
+  margin:5% ;
+}
+} 
